@@ -1,0 +1,26 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": ["javascript, html, css, scss"],
+  "prettier.eslintIntegration": true,
+  "emmet.includeLanguages": { "jinja": "html" },
+  "tsserver.enableJavascript": true,
+  "tsserver.implicitProjectConfig.checkJs": true,
+  "tsserver.reportStyleChecksAsWarnings": true,
+  "list.insertMappings": {
+    "<C-r>": "do:refresh",
+    "<C-f>": "feedkeys:\\<C-f>",
+    "<C-b>": "feedkeys:\\<C-b>",
+    "<C-n>": "normal:j",
+    "<C-p>": "normal:k",
+    "<C-j>": "do:defaultaction",
+    "<C-t>": "action:tabe",
+    "<C-v>": "eval:@@"
+  },
+  "git.enableGutters": false,
+  "coc.preferences.formatOnType": true,
+  "snippets.extends": {
+    "javascriptreact": ["javascript"],
+    "typescriptreact": ["javascript"],
+    "typescript": ["javascript"]
+  },
+  "css.validate": false
+}
